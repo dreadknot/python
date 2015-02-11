@@ -1,7 +1,7 @@
 
 # add the only even prime 2 to the list of primes
 primes = [2]
-# go through all the odd numbers from 1 to 1000
+# go through all the odd numbers from 1 to 1000 with step 2
 for candidate in range(1,1001,2):
 	# assume each candidate is prime
 	prime = 1
