@@ -6,7 +6,6 @@ for candidate in range(1,1001,2):
 	# assume each candidate is prime
 	prime = 1
 	# take the odd number and try to divide it by each number up to half of the canditate
-	# print 'odd / 2: ', candidate / 2
 	for denominator in range(2, candidate / 2):
 		# if remainder is 0 candidate is not prime and can stop checking
 		if candidate % denominator == 0:
